@@ -1,0 +1,99 @@
+body {
+    background-color:lightgray;
+    color: grey;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex-container {
+    background-color: white;
+    display: flex;
+    border: 2px solid lightgray;
+    flex-direction:column;
+    width:1000px;
+    margin-left: 400px;
+    margin-bottom: 30px;
+    text-align:center
+    
+}
+
+.header{
+    text-align: center;
+    
+}
+
+h1{
+    color:#dd5555;
+    font-weight: bolder;
+}
+
+.seeforyourself {
+    background-color:#dd5555;
+    color:white;
+    text-decoration:none;
+    width: 100px;
+    text-align:center;
+    margin-left: 4OOpx;
+    }
+
+
+img#portrait{
+    border-radius:50%;
+    border: 5px solid lightgray
+}
+p#subtitle{
+    font-weight: bold;
+    font-size:20px;
+}
+
+.flex-container2{
+    background-color: white;
+    display :flex;
+    flex-direction: row;
+    width:1000px;
+    margin-left: 400px;
+    margin-bottom: 30px;
+}
+
+ul{
+    
+    display:flex;
+    flex-direction: row;
+    margin-right:30px;
+    padding-right: 30px;
+    padding-left: 350px;
+    list-style-type: none;
+}
+
+li{
+    
+    padding-right: 20px;
+}
+
+.flex-container3{
+    display:flex;
+    background-color:white;
+    flex-direction: column;
+    width:1000px;
+    margin-left: 400px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+.movies{
+    display:flex;
+    flex-direction: row;
+    margin :30px;
+}
+
+p.resume{
+    text-align:center;
+
+}
+
+.moviename{
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
